@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
     <title>Pagina de Login</title>
@@ -17,7 +18,19 @@
                 <h1>Login</h1>
                 <p>Seja Bem-Vindo(a). Faça login para continuar.</p>
                 <form action="ligin.php" method="post">
-
+                    <div class="campo"> 
+                        <span class="material-symbols-outlined">person</span> 
+                        <input type="email" name="login" id="ilogin" placeholder="seu login" autocomplete="on" required maxlength="30">
+                        <label for="ilogin">login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">Key</span> 
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required autocomplete="current-password" minlength="8" maxlength="12">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entar">
+                    <a href="erro.html">Esqueci a senha</a>
+                    <span class="material-symbols-outlined">email</span> 
                 </form>
             </div>
         </section>

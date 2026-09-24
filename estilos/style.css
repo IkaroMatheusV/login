@@ -6,7 +6,7 @@
 */
 
 * {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -53,4 +53,15 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 
+}
+
+div#formulario > h1 {
+    text-align: center;
+    color: #112A46;
+    margin-bottom: 10px;
+
+}
+
+div#formulario > p {
+    font-size: .8em;
 }
